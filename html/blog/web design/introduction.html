@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--header css-->
+    <link href="/project1/css/homepage-navbar.css" rel="stylesheet">
+    <!--My CSS-->
+    
+    
+    <link href="/project1/css/blog-web design/introduction.css" rel="stylesheet">
+    <!--AOS CSS & JS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--count-container-->
+    <link rel="stylesheet" href="/project1/css/homepage/count-container.css">
+    <script src="/project1/js/homepage/count-container.js"></script>
+    <!--footer css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/project1/css/homepage/footer-bottom.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <section class="header">
+        <div class="container">
+          <nav class="navbar sticky-top navbar-expand-lg  navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">haha</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown" aria-controls="navDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navDropdown">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/project1/html/homepage/homepage.html">首頁</a>
+                  </li>
+
+                  
+
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      科技
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">NAS</a></li>
+                      <li><a class="dropdown-item" href="#">CSS</a></li>
+                      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">JavaScript</a>
+
+                        <!-- 子選單Level 2 -->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Functions</a></li>
+                          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">DOM</a>
+
+                            <!-- 子選單Level 3 -->
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">getElementById</a></li>
+                              <li><a class="dropdown-item" href="#">addEventListener</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">二次元</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">網頁設計</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">我的作品</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/project1/html/homepage/start.html">關於我</a>
+                  </li>
+
+                  
+
+                  
+
+                  
+
+                  <!--
+                  <div class="lang-menu">
+
+                  </div>-->
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+            <div class="row">
+              <div class=" breadcrumb">
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/project1/html/homepage.html">首頁</a></li>
+                    <li class="breadcrumb-item"><a href="/project1/html/homepage.html">最新消息</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">反叛的魯路修</li>
+                  </ol>
+                </nav>
+              </div>
+              
+              <div class="lower">
+
+                
+                <div class="content">
+                  <h1>網頁新手入門：初探網頁架構和前後端語言</h1>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                  <img src="/project1/image/blog/web design/marvin-meyer-SYTO3xs06fU-unsplash.jpg">
+                  <div class="part1">
+                    
+
+                    
+                    <p>
+                      關於學習寫網站，最常聽到大家會說的就是什麼前端語言、後端語言。因此，要了解網站的基本架構，就讓我們先從前端後端下手吧！
+                    </p>
+                    <p>一個完整的網站可以分為前端和後端兩個部分，可分別對應餐廳的前台和後台。
+
+                      前端開發英文是Front end,也叫客戶端(Client Side),對應餐廳前台，負責將客戶的指令/輸入傳送給後端。
+                      
+                      而後端Back end，也叫服務(Server Side)，對應餐廳後台，負責接收前端的要求，並提供相對應的資料，就像廚房一樣接受點餐櫃檯傳來的客戶需求，提供相對應的餐點。
+                    </p>
+
+                    <img src="/project1/image/blog/web design/WhatsApp Image 2022-07-23 at 8.20.26 PM.jpeg">
+
+                    <p>因此網頁前端跟後端的關係，其實就像是餐廳點餐跟出餐一樣，前者接受使用者的指令並呈現網頁內容，後者則處理使用者的指令並提供內容。
+                      兩者可謂是互相依賴，缺一不可。
+                    </p>
+
+                    <p>接下來，了解完了網頁基本的前後端，讓我們先進一步了解前端有什麼語言是需要我們學的吧。</p>
+
+                  </div>
+                  <div class="part2">
+                    <h1>前端程序語言</h1>
+                    <img src="/project1/image/blog/web design/html css js.jpeg">
+
+                    <p>如果你想要自已動手寫一個簡單的網站介面（例如：自己的履歷網站）， 需要學習基本的html css和javascript。而寫前端網頁會主要用到的這三個工具，有些人會稱之為「前端三兄弟」。</p>
+                    
+                    <img src="/project1/image/blog/web design/Ekran-Resmi-2019-11-18-18.08.13.png">
+                    <img src="/project1/image/blog/web design/icons-hero.png">
+                    <p>除此之外，還需要學習bootstrap 和 react js 等framework來幫助我們加快開發進度。</p>
+
+                  </div>
+                  <div class="part3">
+                    <h1>其他條件</h1>
+
+                    <p>前端的網站開發人員需要考慮怎樣去展示資料，用甚麼字形？字體多大？需不需要圖片？怎樣整齊排列？等等讓網站應用可以更容易地被使用者使用，這個考慮用戶使用過程業內稱作使用者體驗(User experience)。</p>
+
+                    <p>正因為前端開發人員要考慮使用者的體驗，所以除了編程的硬技術外，一個好的前端開發人員通常都會具備設計(Design)方面的知識和理論。</p>
+
+                    <p>基本上，了解了 HTML / CSS / JS 後，我們就能對前端就有一個完整而基本的認識。緊接著，讓我們來認識有什麼後端語言吧。</p>
+                  </div>
+                  <div class="part4">
+                    <h1>後端程序語言</h1>
+                    <img src="/project1/image/blog/web design/WhatsApp Image 2022-07-23 at 9.28.41 PM.jpeg">
+
+                    <p>不像前端語言只有 JS 一種，後端語言在選擇上可說是百家爭鳴、百花齊放。常見的有老牌的 PHP、Java，最近十分熱門的 Python、Ruby，來勢洶洶的 Node.js、Go 等等。</p>
+
+                    <p>而事實上，每個後端語言都有不一樣的特性，也都有各自的擁護者。哪一個語言最適合做為後端語言的入門一直都是沒有定論的問題。大家可以根據各自的需求選擇適合自己的後端語言。</p>
+
+                  </div>
+                  <div class="part5">
+                    <h1>其他條件</h1>
+
+                    <p>後端開發人員利用以上工具/語言用來與裝滿資料的資料庫進行溝通，然後根據需要拿出資料，傳送給前端展示。</p>
+
+                    <p>因為後端開發人員通常會接觸到巨量而且敏感資料，責任比較重，所以一個好的後端開發人員通常做事比較謹慎。因為一不留神有可能打錯一句指令就可以清空一個巨大的資料庫，又或者一個忘了將客戶的密碼加密儲存而導致資料外洩都有可能發生</p>
+                  </div>
+                  <div class="part6">
+                    <h1></h1>
+                  </div>
+                </div>
+
+              </div>
+
+              
+              <h1>hahahaha</h1>
+
+                
+            </div>
+        </div>
+
+
+      </section>
+
+      <a class="gotopbtn" href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
+      
+        
+      
+
+      
+      
+
+      
+
+
+        
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+        
+
+  </body>
+</html>

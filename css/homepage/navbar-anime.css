@@ -1,0 +1,61 @@
+.information .container{
+    width: 100%;
+    /*padding-right: 30px;
+    padding-left: 30px;*/
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1260px;
+    background-color: white;
+    /*background-color: rgb(203,203,203);*/
+}
+.information .nav-tabs{
+    margin-bottom: 30px;
+}
+.information .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #616161!important;
+    border-color: black;
+}
+.information .nav-link{
+    font-size: 10px;
+    color: black;
+    background-color: #eee!important;
+    border-radius: 6px;
+    margin: 0px 10px 0px 10px
+}
+.information .nav-tabs button{
+    width: 100px;
+}
+.information .tab-content a{
+    text-decoration: none;
+    color: black;    
+}
+.information .container-fluid h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+/*!!!*/
+
+
+
+.information .tab-content img{
+    width: 326px;
+    height: 183.375px;
+}
+.information .tab-content .card{
+    height: 183.375px;
+    border: none;
+    margin-bottom: 20px;
+    /*box-shadow: 5px 5px 10px;*/
+    
+}
+.information .tab-content .mb-3{
+    border-radius: 0.5rem;
+    border: 1px solid #616161;
+}
+
+.information .tab-content .card-box .card-body .card-title:hover{
+    color: rgba(255,0,212)!important;
+}

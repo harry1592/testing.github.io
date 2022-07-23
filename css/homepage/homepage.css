@@ -1,0 +1,109 @@
+
+
+body{
+  background-image: url(/project1/image/cool-background.png);
+  background-attachment: fixed;    
+  background-repeat:no-repeat ;
+  background-size: cover;
+
+    
+    
+}
+/*first*/
+#first{
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+
+/*third*/
+#third{
+  padding-top: 200px;
+}
+#third img{
+  width: 350px;
+  padding: 10px 0px 10px 0px;
+  margin: auto;
+}
+#third .description{
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#box{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: lightgreen;
+  margin: 30px 80px 30px 80px;
+}
+#box a{
+  text-decoration: none;
+  color: darkcyan;
+}
+#box-1{
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+#box-2{
+  grid-row: 3/5;
+  grid-column: 2/5;
+}
+#box-3{
+  grid-row: 5/7;
+  grid-column: 1/4;
+}
+#box-4{
+  grid-row: 7/9;
+  grid-column: 2/5;
+}
+#box-5{
+  grid-row: 9/11;
+  grid-column: 1/4;
+}
+#third .description{
+  text-align: center;
+}
+
+
+
+
+
+/*fourth*/
+#fourth{
+  margin-bottom: 50px;
+}
+/*go top btn*/
+html{
+  scroll-behavior: smooth;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+
+}
+
+
+
+
+
+
+
+
+
