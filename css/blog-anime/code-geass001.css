@@ -3,20 +3,11 @@
     background-color:  rgb(238, 238, 238);
 
 }
-.menu .container{
-    margin: auto;
-    max-width: 1000px;
-    height: 100%;
-    
-    padding: 10px;
-    background-color:#fff;
-}
-.menu .breadcrumb{
-    margin-top: 10px;
-    padding-left: 10px;
+.menu .upper{
+    margin-bottom: 50px;
 }
 .menu .upper img{
-    width: 250px;
+    width: 300px;
     box-shadow:2px 3px 8px #555;
     float: left;
     margin-right: 35px;
@@ -26,23 +17,73 @@
     font-size: 20px;
     color: grey;
 }
+.menu .upper .intro-content p{
+    font-size: 18px
+}
+.menu .upper .intro-content h3{
+    font-size: 25px;
+    color: black;
+}
+.menu .lower .content .part3{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
 
-.menu .breadcrumb ol a{
-    text-decoration: none;
-    color: black;  
-}
-.breadcrumb ol a:hover{
-    color: rgb(51, 131, 196);
-}
+
 /*content*/
-.menu .content .part1{
-    margin-top: 30px;
+.menu .lower .content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 8px #555;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.menu .content .part1 h1{
-    font-size: 30px;
+/*navbar background*/
+.header{
+    width: 100%;
     
+    background-image: linear-gradient(to right,#de6262 , #ffb88c
+);}
+*{margin: 0;padding: 0;
+  box-sizing: border-box;}
+  
+.header .navbar-brand{
+    color: white!important;
+}
+.header .nav-link{
+    color: white!important;
+}
+.header .nav-link:hover{
+    color: rgba(255,0,212)!important;
+}
+/*navbar-item*/
+.header .nav-item{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
+  
+/*dropdown menu*/
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0%;
+    left: 100%;
+    margin-top: -10px;
+}
+
+.dropdown-menu>li>a:hover:after {
+    transform: rotate(-90deg);
+    transition: 0.5s;
+}
 /*go top btn*/
 html{
     scroll-behavior: smooth;
@@ -60,6 +101,37 @@ html{
     color: white;
     font-size: 22px;
   
+}
+.menu .lower p {
+    font-size: 20px;
+    line-height: 1.7em;
+    letter-spacing: 0.5px;
+    font-family: "Noto Sans TC",Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+.menu .lower .btn-back a{
+    text-decoration: none;
+    color: white;
+}
+.menu .container{
+    margin: auto;
+    max-width: 1000px;
+    height: 100%;
+    
+    padding: 15px;
+    background-color:#fff;
+}
+.menu .breadcrumb{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.menu .breadcrumb ol a{
+    text-decoration: none;
+    color: black;  
+}
+.breadcrumb ol a:hover{
+    color: rgb(51, 131, 196);
 }
 
 

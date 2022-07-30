@@ -1,11 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 .header .inner-header img{
-  width: 200px;
-  border-radius: 100%;
+  
+  width: 20%;
   float: right;
   
 
 }
+
 
 body {
   margin:0;
@@ -44,15 +45,7 @@ p {
   margin: 0;
   padding: 0;
 }
-.inner-header img{
-  width: 200px;
-  border-radius: 10px;
 
-}
-.inner-header p{
-  font-size: 30px;
-  max-width: 400px;
-}
 
 
 .waves {
